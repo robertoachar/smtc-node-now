@@ -1,0 +1,32 @@
+{
+  "name": "smtc-node-now",
+  "version": "1.0.0",
+  "description": "A playground for Node with now.",
+  "author": "Roberto Achar <robertoachar@gmail.com>",
+  "homepage": "https://github.com/robertoachar/smtc-node-now#readme",
+  "keywords": [
+    "node",
+    "express",
+    "now"
+  ],
+  "main": "src/index.js",
+  "files": [
+    "src"
+  ],
+  "scripts": {
+    "lint": "eslint src/**/*.js",
+    "start": "node src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/robertoachar/smtc-node-now.git"
+  },
+  "bugs": {
+    "url": "https://github.com/robertoachar/smtc-node-now/issues"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "eslint": "latest"
+  },
+  "license": "MIT"
+}
