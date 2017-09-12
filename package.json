@@ -15,7 +15,8 @@
   ],
   "scripts": {
     "lint": "eslint src/**/*.js",
-    "start": "nodemon src/index.js"
+    "start": "nodemon src/index.js",
+    "now-start": "node src/index.js"
   },
   "repository": {
     "type": "git",
